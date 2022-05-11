@@ -4,9 +4,9 @@ public class Main {
 
         boolean isGreenLight = false;
 
-        int speedPlayer1 = 0;
-        int speedPlayer2 = 0;
-        int speedPlayer3 = 0;
+        int speedPlayer1 = 2;
+        int speedPlayer2 = 4;
+        int speedPlayer3 = 5;
         int NumberOfEliminatedPlayers = 0;
         {
             if (isGreenLight == false) {
@@ -27,7 +27,7 @@ public class Main {
         System.out.println("Количество выбывших игроков = " + NumberOfEliminatedPlayers);
     }
     {
-        System.out.println("Good bye");
+        System.out.println("Good job");
     }
 }
 
