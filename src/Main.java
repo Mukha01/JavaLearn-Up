@@ -25,6 +25,8 @@ public class Main {
 
             System.out.println("Количество выбывших игроков = " + NumberOfEliminatedPlayers);
         }
+        System.out.println("Good bye");
     }
 }
+
 
